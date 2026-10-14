@@ -1,0 +1,6 @@
+.tx { display: flex; flex-direction: column; height: 100%; gap: 8px; }
+.tx-bar { display: flex; flex-wrap: wrap; gap: 5px; }
+.tx-bar button { padding: 5px 9px; border: 1px solid var(--muted-bg, #444); border-radius: 6px; background: var(--card-bg, #27292c); color: var(--text, #eee); cursor: pointer; font-size: 0.76rem; }
+.tx-bar button:hover { background: rgba(127,127,127,0.2); }
+#tx-text { flex: 1; resize: none; padding: 10px; border: 1px solid var(--muted-bg, #444); border-radius: 8px; background: var(--surface, #1e1e1e); color: var(--text, #eee); font: 13px/1.5 ui-monospace, monospace; }
+.tx-stats { font-size: 0.74rem; opacity: 0.7; }
